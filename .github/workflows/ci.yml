@@ -26,4 +26,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run pytest
-        run: PYTHONPATH=. pytest -q
+        run: |
+          ls
+          PYTHONPATH=. pytest -q
