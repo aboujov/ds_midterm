@@ -28,4 +28,4 @@ jobs:
       - name: Run pytest
         run: |
           ls
-          PYTHONPATH=. pytest -q
+          pytest -q
